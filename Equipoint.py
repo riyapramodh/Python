@@ -8,3 +8,4 @@
             if lsum == rsum:
                 return i+1
             lsum += A[i]
+        return -1
