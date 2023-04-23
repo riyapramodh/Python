@@ -6,9 +6,9 @@
     	# code here
     	k = 0
  
-    
+    #if the element i in array is not 0 it will be moved to the kth index on the left and then in the updated array, from the kth index to the end of array all the zero elements are made
         for i in arr:
-            if i:
+            if i != 0:
                 arr[k] = i
                 k = k + 1
  
